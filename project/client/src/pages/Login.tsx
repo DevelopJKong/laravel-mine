@@ -114,8 +114,6 @@ const Login = () => {
                 })
             ).json();
 
-            console.log(userData.token);
-            console.log(email)
             
             return setLoginSuccess({
                 currentUser: email,
